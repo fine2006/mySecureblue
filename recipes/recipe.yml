@@ -33,6 +33,8 @@ modules:
       - tmux
       - gtk3-devel
       - mullvad-vpn
+      - podman-docker
+      - podman-compose
   - type: systemd
     system:
       enabled:
