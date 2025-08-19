@@ -33,8 +33,9 @@ modules:
       - tmux
       - gtk3-devel
       - mullvad-vpn
-      - podman-docker
-      - podman-compose
+      #- podman-docker
+      #- podman-compose
+      - texlive-scheme-full
   - type: systemd
     system:
       enabled:
