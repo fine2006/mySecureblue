@@ -33,6 +33,7 @@ modules:
       - tmux
       - gtk3-devel
       - mullvad-vpn
+      - texlive-scheme-full
   - type: systemd
     system:
       enabled:
