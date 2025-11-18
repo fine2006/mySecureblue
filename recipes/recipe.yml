@@ -36,8 +36,6 @@ modules:
       - texlive-scheme-full
       - postgresql-server
       - postgresql-contrib
-      - xdg-desktop-portal-gnome
-      - xdg-desktop-portal-kde
   - type: systemd
     system:
       enabled:
