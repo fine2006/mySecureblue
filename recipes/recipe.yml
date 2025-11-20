@@ -20,7 +20,7 @@ modules:
     # remove:
     #   - sway
     install:
-      - swayfx
+      # - swayfx
       - clang
       # - opentabletdriver-0.6.5.1-1.x86_64.rpm # if this is needed someday that will be seen
       - android-tools
@@ -38,11 +38,11 @@ modules:
       - postgresql-contrib
       - rocm
       - rocm-devel
-  - type: systemd
-    system:
-      enabled:
-        # - mullvad-daemon
-        # - mullvad-early-boot-blocking
+  # - type: systemd
+  #   system:
+  #     enabled:
+  #       # - mullvad-daemon
+  #       # - mullvad-early-boot-blocking
     # user:
     #   enabled:
     #     - opentabletdriver
