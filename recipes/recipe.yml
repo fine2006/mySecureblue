@@ -33,9 +33,9 @@ modules:
       - tmux
       - gtk3-devel
       # - mullvad-vpn
-      - texlive-scheme-full
-      - postgresql-server
-      - postgresql-contrib
+      # - texlive-scheme-full
+      # - postgresql-server
+      # - postgresql-contrib
       - rocm
       # - rocm-devel
   # - type: systemd
