@@ -37,7 +37,7 @@ modules:
       - postgresql-server
       - postgresql-contrib
       - rocm
-      - rocm-devel
+      # - rocm-devel
   # - type: systemd
   #   system:
   #     enabled:
