@@ -6,7 +6,7 @@ name: mySecureblue
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/secureblue/kinoite-main-hardened
+base-image: ghcr.io/secureblue/sericea-main-hardened
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -29,13 +29,13 @@ modules:
       - libsixel-devel
       - libsixel-utils
       - libxcrypt-compat
-      # - gvfs-mtp
+      - gvfs-mtp
       - tmux
       - gtk3-devel
       # - mullvad-vpn
-      # - texlive-scheme-full
-      # - postgresql-server
-      # - postgresql-contrib
+      - texlive-scheme-full
+      - postgresql-server
+      - postgresql-contrib
       - rocm
       # - rocm-devel
   # - type: systemd
