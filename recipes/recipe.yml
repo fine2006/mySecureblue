@@ -13,7 +13,7 @@ image-version: latest # latest is also supported if you want new updates ASAP
 # you can include multiple instances of the same module
 modules:
   - type: rpm-ostree
-    # repos:
+    repos:
     #   - https://repository.mullvad.net/rpm/stable/mullvad.repo
     #   - https://copr.fedorainfracloud.org/coprs/swayfx/swayfx/repo/fedora-%OS_VERSION%/swayfx-swayfx-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/kuya-carlo/v4l2loopback/repo/fedora-%OS_VERSION%/kuya-carlo-v4l2loopback-fedora-%OS_VERSION%.repo
