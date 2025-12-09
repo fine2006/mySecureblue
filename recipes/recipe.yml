@@ -38,6 +38,7 @@ modules:
       # - postgresql-server
       # - postgresql-contrib
       - rocm
+      - obs-studio-plugin-vkcapture
       # - rocm-devel
   # - type: systemd
   #   system:
