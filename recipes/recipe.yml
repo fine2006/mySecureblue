@@ -16,7 +16,7 @@ modules:
     # repos:
     #   - https://repository.mullvad.net/rpm/stable/mullvad.repo
     #   - https://copr.fedorainfracloud.org/coprs/swayfx/swayfx/repo/fedora-%OS_VERSION%/swayfx-swayfx-fedora-%OS_VERSION%.repo
-
+      - https://copr.fedorainfracloud.org/coprs/kuya-carlo/v4l2loopback/repo/fedora-%OS_VERSION%/kuya-carlo-v4l2loopback-fedora-%OS_VERSION%.repo
     # remove:
     #   - sway
     install:
@@ -41,6 +41,7 @@ modules:
       - obs-studio
       - obs-studio-libs
       - obs-studio-plugin-vkcapture
+      - v4l2loopback
       # - rocm-devel
   # - type: systemd
   #   system:
