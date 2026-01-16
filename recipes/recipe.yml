@@ -32,6 +32,7 @@ modules:
       - gvfs-mtp
       - tmux
       - gtk3-devel
+      - wireshark
       # - mpd
       # - mullvad-vpn
       # - texlive-scheme-full
